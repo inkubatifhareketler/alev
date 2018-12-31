@@ -35,9 +35,9 @@ title: Home
   </small>
 </header>
 
-<section class="content">
+<section class="content" id="home">
   
-  <p>[ Home ] &nbsp; &middot; &nbsp; [ <a href="#">Blog</a> ]</p>
+  <p><strong>[ Home ]</strong> &nbsp; &middot; &nbsp; [ <a href="javascript:void(document.getElementById('home').style.display='none';document.getElementById('blog').style.display='block';)">Blog</a> ]</p>
 
   <p>
     My name is Emre (pronounced Am-Ray) and 
@@ -145,4 +145,9 @@ qnY72+TWOFG8oyzaqxjk56+VdjFlYtSp8SQgu/MnLbQ=
   </p>
 -->
 
+</section>
+
+<section class="content" id="blog" style="display:none;">
+  <p>[ <a href="javascript:void(document.getElementById('home').style.display='block';document.getElementById('blog').style.display='none';)">Home</a> ] &nbsp; &middot; &nbsp; <strong>[ Blog ]</strong></p>
+  <graphjs-blog></graphjs-blog>
 </section>
