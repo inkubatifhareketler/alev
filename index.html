@@ -35,9 +35,9 @@ title: Home
   </small>
 </header>
 
-<section class="content" id="home">
+<section class="content" id="home" style="display:none;">
   
-  <p><strong>[ Home ]</strong> &nbsp; &middot; &nbsp; [ <a href="javascript:void(0)" onclick="document.getElementById('home').style.display='none';document.getElementById('blog').style.display='block';">Blog</a> ]</p>
+  <p>[ <a href="javascript:void(0)" onclick="document.getElementById('home').style.display='none';document.getElementById('blog').style.display='block';">Blog</a> ] &nbsp; &middot; &nbsp; <strong>[ About ]</strong></p>
 
   <p>
     My name is Emre (pronounced Am-Ray) and 
@@ -48,7 +48,7 @@ title: Home
   </p>
   
   <p>
-    Prior to Grou.ps I worked at hakia, an AI startup (before it was cool) which was my first step to a work visa in the US. hakia's semantic search technology was a predecessor to Google's -what we call today- Knowledge Graph. I joined hakia after a short internship stint at <a href="https://wordnet.princeton.edu/">Princeton University Wordnet Project</a> which was also my first time in the US.
+    Prior to Grou.ps I worked at hakia, an AI startup (before it was <a href="https://trends.google.com/trends/explore?date=all&q=machine%20learning#TIMESERIES">this</a> cool) which was my first step to a work visa in the US. hakia's semantic search technology was a predecessor to Google's -what we call today- Knowledge Graph. I joined hakia after a short internship stint at <a href="https://wordnet.princeton.edu/">Princeton University Wordnet Project</a> which was also my first time in the US.
   </p>
 
 <p>
@@ -147,8 +147,8 @@ qnY72+TWOFG8oyzaqxjk56+VdjFlYtSp8SQgu/MnLbQ=
 
 </section>
 
-<section class="content" id="blog" style="display:none;">
-  <p>[ <a href="javascript:void(0)" onclick="document.getElementById('home').style.display='block';document.getElementById('blog').style.display='none';">Home</a> ] &nbsp; &middot; &nbsp; <strong>[ Blog ]</strong></p>
+<section class="content" id="blog" style="display:block;">
+  <p><strong>[ Blog ]</strong></p> &nbsp; &middot; &nbsp; [ <a href="javascript:void(0)" onclick="document.getElementById('home').style.display='block';document.getElementById('blog').style.display='none';">About</a> ]
 <!--
   <graphjs-blog></graphjs-blog>
 -->
